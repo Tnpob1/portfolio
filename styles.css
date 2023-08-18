@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(125deg, #ffffff, #555555);
+}
+
+.profile-img{
+    border: #ff0000 solid;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    grid-row: span 3/span 3;
+    padding: 30px;
+    
+}   
+
+.radar-chart{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: #ff0000 solid;
+}
+
+.pie-chart{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: #ff0000 solid;
+}
+
+.padding-chart{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    border: #ff0000 solid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.page{
+    background-color: #ffffff;
+    margin: 100px;
+
+}
+
