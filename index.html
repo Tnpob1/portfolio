@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,47 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body>
 
-    <div class="page">
-    <div class="container">
-    <div class="profile-img">
-        <img src="1.jpg" alt="">
-    </div >
-    <div>
-        <h1>นาย ติณณภพ จำปาทอง</h1>
+<body>
+    <nav class="nav-bar">
+        <a class="logo" href="#profile">
+            <h1>Portfolio</h1>
+        </a>
+    </nav>
+    <div id="profile" class="profile">
+        <div class="img-wrapper">
+            <img class="img-profile" src="2.jpg" alt="">
+        </div>
+
+        <div class="profile-detail">
+            <div class="text-box">
+                <h1>นาย ติณณภพ จำปาทอง</h1>
+                <h2>รหัสนักศึกษา 6504101330 มหาวิทยาลัย แม่โจ้</h2>
+                <h2>คณะวิทยาศาสตร์ สาขา วิทยาการคอมพิวเตอร์</h2>
+                <h2>อายุ 19 ปี วัน/เดือน/ปีเกิด 28 มีนาคม พ.ศ. 2547 </h2>
+                <h2>เพศ ชาย ส่วนสูง 180 ซม. น้ำหนัก ??? </h2>
+                <h2>เคยศึกษาที่ โรงเรียนสวีวิทยา จนถึงมัธยมศึกษาปีที่ 6</h2>
+                <h2>สนใจคอมพิวเตอร์ โดยเฉพาะการเล่นเกมเป็นพิเศษ</h2>
+                <h2>เลือกการนอนมากกว่าทำการงานหรืองานของคณะ</h2>
+
+            </div>
+        </div>
     </div>
-    
-    <div class="radar-chart">
-        <canvas id="radarChart"></canvas>            
-    </div>
-    <div class="pie-chart">
-        <canvas id="pieChart"></canvas>
-    </div>
-    <div class="padding-chart">
-        <canvas id="paddingChart"></canvas>
-    </div>
-    </div>
-    </div>
+    <main class="charts">
+        <div class="chart-border">
+            <div class="chart-style">
+                <canvas class="chart-size" id="radarChart"></canvas>
+            </div>
+            <div class="chart-style">
+                <canvas class="chart-size" id="pieChart"></canvas>
+            </div>
+            <div class="chart-style">
+                <canvas class="chart-size" id="paddingChart"></canvas>
+            </div>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>

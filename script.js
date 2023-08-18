@@ -2,7 +2,7 @@ var data = {
     labels: ["การเรียน", "กล้าแสดงออก", "กีฬา", "ประสบการณ์ทำงาน"],
     datasets: [
       {
-        label: "Data Set 1",
+        label: "ความสามารถ",
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         borderColor: "cyan",
         data: [6, 3, 4, 0], // Adjust these values based on your data
@@ -28,10 +28,10 @@ var data = {
   });
 
   var data = {
-    labels: ["Element 1", "Element 2", "Element 3", "Element 4"],
+    labels: ["ทำงาน", "เล่นเกม", "นอน", "กิน"],
     datasets: [
       {
-        data: [25, 30, 20, 25], // Adjust these values based on your data
+        data: [5, 50, 20, 25], // Adjust these values based on your data
         backgroundColor: ["red", "blue", "green", "orange"],
       },
     ],
@@ -54,8 +54,8 @@ var data = {
     datasets: [
       {
         label: "Grades",
-        data: [85, 90, 78, 92, 88], // Adjust these values based on your data
-        backgroundColor: "blue",
+        data: [3.36, 3.51, 3.66, 3.57, 3.65], // Adjust these values based on your data
+        backgroundColor:"#2ECC71",
       },
     ],
   };
